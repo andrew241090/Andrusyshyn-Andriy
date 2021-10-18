@@ -1,0 +1,21 @@
+body,html {
+    scroll-behavior: smooth;
+    margin: 5px;
+    background: darkgrey;
+
+}
+img{
+    text-align=center ;
+}
+h2{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+
+}
+.zzz li{
+    text-align: center;
+    list-style: none;
+    background: aliceblue;
+    border: 2px;
+}
