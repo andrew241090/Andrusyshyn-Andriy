@@ -5,7 +5,9 @@ body,html {
 
 }
 img{
-    text-align=center ;
+
+    align: center;
+    border: 1px solid red;
 }
 h2{
     color: red;
@@ -13,7 +15,7 @@ h2{
     font-size: 40px;
 
 }
-.zzz li{
+.first li{
     text-align: center;
     list-style: none;
     background: aliceblue;
