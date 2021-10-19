@@ -1,7 +1,6 @@
 
 
 .flex1 {
-
     width: 900px;
     height: 700px;
     background: #bd884e;
@@ -17,14 +16,17 @@
     height: 50%;
     display: flex;;
     background: #622b2b;
+    border: 2px solid black;
     border-radius: 20px;
 }
-.flex3 {display: inline;
+.flex3 {
+    display: inline;
     margin: 10px;
     background: #378c45;
     width: 425px;
     height: 300px;
     border-radius: 20px;
+    border: 2px solid black;
     justify-content:end;
 }
 .flex4 {
@@ -34,5 +36,6 @@
     width: 425px;
     height: 300px;
     border-radius: 20px;
+    border: 2px solid black;
     justify-content:end;
 }
