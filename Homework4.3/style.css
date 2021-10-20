@@ -1,0 +1,47 @@
+.wrap {
+    margin: 0px auto;
+    width: 1000px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: #a8e331;
+}
+.id{
+    width: 100%;
+    display: flex;
+    background: #9fbace;
+
+}
+
+.post {
+    width: 200px;
+    height: 450px;
+    background: #e7be31;
+}
+.post1{
+    width: 1000px;
+    height: 450px;
+    background: #dc3535;
+    display: flex;
+    flex-direction: column;
+
+}
+.a{
+    padding:5px;
+    height:100% ;
+    width:100%;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #909f2f;
+
+}
