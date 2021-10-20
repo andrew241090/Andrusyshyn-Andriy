@@ -1,15 +1,17 @@
 .wrap {
     margin: 0px auto;
-    width: 1000px;
-    border: 2px solid red;
+    width: 600px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    column-gap: 5px;
+
 
 }
 
 
 .header{
+    margin-bottom: 10px;
     height: 50px;
     width: 100%;
     background: #a8e331;
@@ -17,29 +19,32 @@
 .id{
     width: 100%;
     display: flex;
-    background: #9fbace;
+    background: #ffffff;
 
 }
 
-.post {
+.menu {
+    margin-right: 10px;
     width: 200px;
-    height: 450px;
+    height: 350px;
     background: #e7be31;
 }
-.post1{
-    width: 1000px;
-    height: 450px;
+.a{
+    width: 600px;
+    height: 350px;
     background: #dc3535;
     display: flex;
     flex-direction: column;
 
 }
-.a{
-    padding:5px;
+.post{
+   margin: 10px;
     height:100% ;
     width:100%;
 }
+
 .footer{
+    margin-top: 10px;
     width: 100%;
     height: 100px;
     background: #909f2f;
