@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    column-gap: 5px;
-
 
 }
 
@@ -20,7 +18,6 @@
     width: 100%;
     display: flex;
     background: #ffffff;
-
 }
 
 .menu {
@@ -35,10 +32,9 @@
     background: #dc3535;
     display: flex;
     flex-direction: column;
-
 }
 .post{
-    height:100% ;
+    height:175px ;
     width:100%;
 }
 

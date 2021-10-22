@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background: #4d4949;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+.head{
+    width: 100%;
+    height: 100px;
+    background: black;
+    display: flex;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.items{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+.points{
+    width: 110px;
+    height: 100px;
+    background: black;
+    margin: 5px;
+}
+.bottom{
+    margin-top: 5px;
+    width: 100px;
+    height: 200px;
+    background: black;
+}
