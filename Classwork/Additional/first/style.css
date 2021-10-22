@@ -1,0 +1,74 @@
+.text {
+    text-align: center;
+    background: #198dec;
+
+}
+.glavnyj{
+    width: 600px;
+    margin: 0px auto;
+
+}
+.golova{
+    height: 50px;
+
+}
+.boddy{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.left{
+    width: 40%;
+}
+.litleleft{
+    height: 100px;
+    width: 100%;
+    background: #b542e1;
+}
+.littlerigth{
+    margin-bottom: 5px;
+    height:200px;
+    width: 100%;
+    background: #bbd234;
+}
+
+.inakshyy{
+    width: 60%;
+}
+.rightbox{
+    height: 200px;
+    width: 100%;
+    background: #e7be31;
+}
+.bigright {
+    margin-top: 5px;
+    height: 100px;
+    width: 100%;
+    background: #7c7f85;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    column-gap: 5px;
+}
+.bottomleft{
+
+    width: 70%;
+    height: 100px;
+    background: #259834;
+}
+.bottomright{
+
+    width: 30%;
+    height: 100px;
+    background: #7736ad;
+}
+.lastdiv{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+    background: #c9690d;
+}
