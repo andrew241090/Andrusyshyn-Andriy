@@ -1,13 +1,16 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.text{
+    text-align: center;
+    background: #aba6a6;
+    border-radius: 5px;
+
+}
+.flex{
+    display: flex;
 }
 
 .main{
-    display: flex;
     flex-direction: column;
     width: 500px;
-    background: #4d4949;
     margin: 0px auto;
     padding: 5px;
     border-radius: 8px;
@@ -15,33 +18,28 @@
     box-sizing: border-box;
 }
 .head{
-    width: 100%;
     height: 100px;
-    background: black;
-    display: flex;
+    margin: 5px;
 }
 .menu{
     width: 100%;
-    display: flex;
     box-sizing: border-box;
 }
 
 .items{
     width: 80%;
-    display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
 }
 .points{
     width: 110px;
     height: 100px;
-    background: black;
     margin: 5px;
 }
 .bottom{
-    margin-top: 5px;
-    width: 100px;
-    height: 200px;
-    background: black;
+    flex-grow: 1;
+    margin: 5px;
+
 }
