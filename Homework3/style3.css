@@ -1,37 +1,29 @@
+.border{
+    background: #ffffff;
+    padding: 5px;
+    border: red solid 1px;
+    box-shadow: 60px -8px 5px #444;
+    box-sizing: border-box;
+}
 .wrap {
+    margin: 0px auto;
     width: 1100px;
     height: 1100px;
     background: #bd884e;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: #dc3535 solid 2px;
+    border: #d52525 solid 2px;
 }
 .xxx  {
-    padding: 5px;
     width: 120px;
     height: auto;
-    background: #ffffff;
-    border: red solid 1px;
-    box-shadow: 60px -8px 5px #444;;
-    box-sizing: border-box;
 }
 .ccc {
-    padding: 5px 7px;
     width: 120px;
     height: auto;
-    background: #ffffff;
-    border-left: red solid 1px;
-    border-right: red solid 1px;;
-    box-shadow: 8px 8px 5px #444;;
-    box-sizing: border-box;
 }
 .vvv  {
-    padding: 5px;
     width:200px;
     height: auto;
-    background: #ffffff;
-    border: red solid 1px;
-    box-shadow: 8px 8px 5px #444;;
-    box-sizing: border-box;
 }
