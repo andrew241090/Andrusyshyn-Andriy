@@ -7,8 +7,8 @@
 }
 .wrap {
     margin: 0px auto;
-    width: 1100px;
-    height: 1100px;
+    width: 900px;
+    height: 900px;
     background: #bd884e;
     display: flex;
     justify-content: space-around;
