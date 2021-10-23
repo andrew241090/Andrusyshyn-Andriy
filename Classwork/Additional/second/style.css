@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
+.body{
+
+    font-family: 'Comic Neue', cursive;
+}
+h2{
+    color: white;
+}
+
+.main {
+    margin: 0px auto;
+    width: 1000px;
+    background: #6297f5;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+.head{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border: ;
+}
+.leftinfo{
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background: #4a6b83;
+}
+.rightinfo{
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    background: #4a6b83;
+}
+.bodycentr{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    background: #6297f5;
+}
+.listofbloks{
+
+    block-size: border-box;
+    width: 20%;
+
+}
+.thinks{
+    margin: 5px;
+    width: 190px;
+    height: 50px;
+    background: #4a6b83;
+    border-radius: 5px;
+}
+.bigrightblok{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+
+}
+.topinformation{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 100%;
+
+}
+.nameofcompany{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+
+}
+.aboutcompany{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+
+}
+.smallblok{
+    width: 90%;
+    height: 90%;
+    background: #4a6b83;
+    border-radius: 5px;
+}
+.buttons{
+    width: 100px;
+    height: 90%;
+    background: #4a6b83;
+    border-radius: 5px;
+}
+.beforelastblok{
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+}
+.livyj{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 70%;
+
+    background: #4a6b83;
+}
+.pravyj{
+    width: 30%;
+
+    background: #4a6b83;
+}
+.spisok{
+    margin: 5px;
+    width: 90%;
+    height: 50px;
+    background: #6297f5;
+}
+.rechi{
+    margin: 5px;
+    width: 200px;
+    height: 150px;
+    background: #6297f5;
+}
