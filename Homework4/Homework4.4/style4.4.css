@@ -1,3 +1,19 @@
+.txt{
+    color: white;
+    text-align: center;
+}
+.bcg{
+    margin-top: 10px;
+    background: #4a6b83;
+    height: 150px;
+    width: 150px;
+}
+.same{
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    background: #274e9a;
+}
 .wrap{margin: 0px auto;
     width: 600px;
     display: flex;
@@ -6,40 +22,9 @@
     flex-direction: column;
     box-sizing: border-box;
 }
-.widgets{
-    margin-bottom: 10px;
-    height: 150px;
-    width: 100%;
-    background: #2e5aa6;
-    text-align: center;
-}
+
 .xxx{
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-.bigwidget{
-    height: 150px;
-    width: 150px;
-    background: #4a6b83;
-    text-align: center;
-}
-.biggerwidget{
-    height: 150px;
-    width: 150px;
-    background: #4a6b83;
-    text-align: center;
-}
-.hugewidgets{
-    height: 150px;
-    width: 150px;
-    background: #4a6b83;
-    text-align: center;
-}
-.contact{
-    margin-top: 10px;
-    height: 150px;
-    width: 100%;
-    background: #274e9a;
-    text-align: center;
 }
