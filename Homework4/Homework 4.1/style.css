@@ -1,4 +1,5 @@
 .wrap {
+    margin: 0px auto;
     background: beige;
     width: 500px;
     height: 600px;
@@ -11,8 +12,10 @@
     border-radius: 20px;
     border: 4px solid black;
     padding-bottom: 30px;
-
-
+}
+.color{
+    background: blue;
+    border-radius: 20px;
 }
 .header {
     background: grey;
@@ -21,7 +24,6 @@
     border-radius: 20px;
 }
 .center {
-
     width: 100%;
     height: 60%;
     border-radius: 20px;
@@ -32,9 +34,6 @@
     row-gap: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
-
-
 }
 .footer {
     background: grey;
@@ -43,24 +42,14 @@
     border-radius: 20px;
 }
 .menu {
-    background: blue;
     height: 100%;
     width: 30%;
-    border-radius: 20px;
-
 }
 .a {
-
-    background: blue;
     height: 48%;
     width: 68%;
-    border-radius: 20px;
-
 }
 .b {
-    background: blue;
     height: 48%;
     width: 68%;
-    border-radius: 20px;
-
 }
