@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
-
-.body{
-
-    font-family: 'Comic Neue', cursive;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 h2{
     color: white;
@@ -12,10 +11,8 @@ h2{
 .main {
     margin: 0px auto;
     width: 1000px;
-    background: #6297f5;
-    border-radius: 8px;
+    background: #d2d6e0;
     border: 2px solid black;
-
 }
 .head{
     display: flex;
@@ -42,7 +39,8 @@ h2{
     align-items: flex-start;
     justify-content: center;
     width: 100%;
-    background: #6297f5;
+    background: #d2d6e0;
+    border: 2px solid black;
 }
 .listofbloks{
 
@@ -52,7 +50,6 @@ h2{
 }
 .thinks{
     margin: 5px;
-    width: 190px;
     height: 50px;
     background: #4a6b83;
     border-radius: 5px;
@@ -61,6 +58,7 @@ h2{
     display: flex;
     flex-direction: column;
     width: 80%;
+    border: 2px solid black;
 
 
 }
@@ -69,6 +67,7 @@ h2{
     flex-direction: column;
     row-gap: 5px;
     width: 100%;
+    border: 2px solid black;
 
 }
 .nameofcompany{
@@ -77,7 +76,6 @@ h2{
     justify-content: center;
     width: 100%;
     height: 200px;
-
 }
 .aboutcompany{
     display: flex;
@@ -85,7 +83,8 @@ h2{
     justify-content: space-around;
     width: 100%;
     height: 100px;
-
+    background: #d2d6e0;
+    border: 2px solid black;
 }
 .smallblok{
     width: 90%;
@@ -111,24 +110,26 @@ h2{
     box-sizing: border-box;
     flex-wrap: wrap;
     width: 70%;
-    background: #4a6b83;
+    background: #d2d6e0;
+    border: 2px solid black;
 }
 .pravyj{
     width: 30%;
 
-    background: #4a6b83;
 }
 .spisok{
     margin: 5px;
     width: 90%;
     height: 50px;
-    background: #6297f5;
+    background: #4a6b83;
+    border-radius: 5px;
 }
 .rechi{
     margin: 5px;
     width: 200px;
     height: 150px;
-    background: #6297f5;
+    background: #4a6b83;
+
 }
 .ostanniy{
     display: flex;
@@ -137,16 +138,20 @@ h2{
     justify-content: center;
     width: 100%;
     height: 100px;
-    background: #4a6b83;
+    background: #d2d6e0;
+    border: 2px solid black;
 }
 .adres{
     margin: 5px;
     width: 100%;
     height: 50px;
-    background: #6297f5;
+    background: #4a6b83;
+    border-radius: 5px;
 }
 .kontakty{
+    margin: 5px;
+    border-radius: 5px;
     width: 200px;
     height: 50px;
-    background: #37a6d0;
+    background: #4a6b83;
 }
