@@ -16,6 +16,9 @@
     box-sizing: border-box;
     border-radius: 8px;
 }
+.first-screen-right img{
+    width: 100%;
+}
 .first-screen-left h1{
    padding-top: 120px;
     font-weight: bold;
@@ -26,7 +29,7 @@
 }
 .first-screen-left p {
     padding-top: 120px;
-    mfont-weight: 600;
+    font-weight: 600;
     font-size: 17px;
     line-height: 32px;
     letter-spacing: -0.4px;
@@ -48,7 +51,7 @@
 .first-screen-left p::after{
    bottom:-55px;
 }
-.first-screen-left-second h2{
+.blue-text{
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
@@ -63,16 +66,13 @@
     letter-spacing: -0.4px;
     color: #020303;
 }
-.first-screen-left-second p{
-   margin: 5px;
+.first-screen-right-second{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-
 .first-screen-left-three{
     background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
-}
-.row-three{
-    display: flex;
-    column-gap: 0px;
 }
 .first-screen-left-three p{
     font-family: Noto Sans;
@@ -86,7 +86,19 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
-     text-align: center;
     letter-spacing: 2.42px;
     color: #FBFDFF;
+}
+.first-screen-left-three{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    justify-content: center;
+}
+.four-screen-left{
+    padding-top: 200px;
+}
+.fourth-screen-right{
+    display: flex;
+   flex-direction: column;
 }
