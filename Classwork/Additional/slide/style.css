@@ -16,9 +16,7 @@
     box-sizing: border-box;
     border-radius: 8px;
 }
-.first-screen-right img{
-    width: 100%;
-}
+
 .first-screen-left h1{
    padding-top: 120px;
     font-weight: bold;
@@ -55,7 +53,6 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 40px;
-    text-align: center;
     letter-spacing: 2.42px;
     color: #1652AC;
 }
