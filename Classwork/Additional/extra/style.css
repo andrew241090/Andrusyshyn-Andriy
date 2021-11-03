@@ -518,3 +518,29 @@
     background-color: #143044;
     border-radius: 27px;
 }
+.deadline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #143044;
+}
+.threecubes{
+    display: flex;
+    column-gap: 10px;
+}
+
+.cube1{
+    width: 30px;
+    height: 30px;
+    background-color: #b4b9c4;
+    border-radius: 7px;
+}
+.finish-line{
+    margin-top: 20px;
+    height: 5px;
+    width: 300px;
+    border-radius: 4px;
+    background-color: #37a6d0;
+}
