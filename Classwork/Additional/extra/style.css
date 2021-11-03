@@ -1,0 +1,122 @@
+.wrapper{
+    width: 1200px;
+    margin: 0px auto;
+}
+.head, .first-list, .middle-menu, .middle-content, .little-things, .cubes-wrap, .content, .head-menu, .bloks, .left-menu, .right-menu{
+    display: flex;
+    align-items: center;
+}
+.items, .left-item, .right-item, .big-cubes, .thinks1, .thinks2, .list, .tulbar, .options1, .options2, .options3{
+    background-color: #143044;
+    border-radius: 7px;
+}
+.head{
+    justify-content: flex-end;
+    column-gap: 30px;
+    height: 40px;
+    padding-right: 185px;
+    background-color: #37a6d0;
+}
+.items{
+    height: 5px;
+    width: 35px;
+}
+.head-menu{
+    height: 80px;
+    justify-content: space-around;
+    background-color: #b4b9c4;
+}
+.left-menu{
+    justify-content: center;
+}
+.tulbar{
+    width: 150px;
+    height: 50px;
+}
+.right-menu{
+    column-gap: 30px;
+}
+.list{
+    height: 5px;
+    width: 55px;
+}
+.content{
+    height: 400px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #37a6d0;
+}
+.bloks{
+    align-items: center;
+    justify-content: center;
+    column-gap:30px;
+    background-color: #37a6d0;
+}
+.options1{
+    height:10px;
+    width: 60px;
+}
+.options2{
+    height:10px;
+    width: 100px;
+}
+.options3{
+    height:10px;
+    width:70px;
+}
+.bottom-menu{
+    height: 50px;
+    width: 170px;
+    background-color: #143044;
+    border-radius: 25px;
+}
+.description {
+    width: 300px;
+}
+.middle-content{
+    justify-content: center;
+    height: 500px;
+    background-color: #b4b9c4;
+}
+.blue-border{
+    display: flex;
+    flex-direction:column;
+    height:400px;
+    width: 1000px;
+    border: 4px rgba(59, 117, 154, 0.79) solid;
+    border-radius: 50px;
+}
+.middle-menu{
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    column-gap: 20px;
+}
+.thinks1, .left-item{
+    height: 10px;
+    width: 55px;
+}
+.thinks2, .right-item{
+    height: 10px;
+    width: 85px;
+}
+.cubes-wrap{
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+.big-cubes{
+    height:200px;
+    width: 200px;
+}
+.little-things{
+    justify-content: space-evenly;
+}
+.first-list{
+    padding-top: 20px;
+    column-gap: 20px;
+}
+.circle-menu{
+    height: 500px;
+    background-color: #143044;
+}
