@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
-
-*{
-    margin: 0px;
-    padding: 0px;
-}
-h2{
-    color: white;
-}
 
 .main {
     margin: 0px auto;
@@ -41,10 +32,8 @@ h2{
     background: #d2d6e0;
 }
 .listofbloks{
-
     block-size: border-box;
     width: 20%;
-
 }
 .thinks{
     margin: 5px;
@@ -109,7 +98,6 @@ h2{
 }
 .pravyj{
     width: 30%;
-
 }
 .spisok{
     margin: 5px;
