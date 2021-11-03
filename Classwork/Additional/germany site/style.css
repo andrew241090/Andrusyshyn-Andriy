@@ -11,10 +11,13 @@
     justify-content: flex-end;
 }
 .navbarDropdownMenuLink1{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
     color: #2E75FF;
-    border: 2px solid #EAEDF5;
-    box-sizing: border-box;
-    border-radius: 8px;
 }
 
 .first-screen-left h1{
@@ -257,4 +260,11 @@
 }
 .telephone span{
     color: #020303;
+}
+.last-text{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
 }

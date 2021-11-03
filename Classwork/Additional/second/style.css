@@ -18,7 +18,6 @@ h2{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    border: ;
 }
 .leftinfo{
     margin: 5px;
@@ -40,7 +39,6 @@ h2{
     justify-content: center;
     width: 100%;
     background: #d2d6e0;
-    border: 2px solid black;
 }
 .listofbloks{
 
@@ -58,7 +56,6 @@ h2{
     display: flex;
     flex-direction: column;
     width: 80%;
-    border: 2px solid black;
 
 
 }
@@ -67,7 +64,6 @@ h2{
     flex-direction: column;
     row-gap: 5px;
     width: 100%;
-    border: 2px solid black;
 
 }
 .nameofcompany{
@@ -84,7 +80,6 @@ h2{
     width: 100%;
     height: 100px;
     background: #d2d6e0;
-    border: 2px solid black;
 }
 .smallblok{
     width: 90%;
@@ -111,7 +106,6 @@ h2{
     flex-wrap: wrap;
     width: 70%;
     background: #d2d6e0;
-    border: 2px solid black;
 }
 .pravyj{
     width: 30%;
@@ -139,7 +133,6 @@ h2{
     width: 100%;
     height: 100px;
     background: #d2d6e0;
-    border: 2px solid black;
 }
 .adres{
     margin: 5px;
