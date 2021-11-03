@@ -309,7 +309,7 @@
 .lot-of-information{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 60px;
     background-color: #b4b9c4;
 }
 .huge-box, .huge-box-1{
@@ -319,8 +319,8 @@
     padding: 100px;
     column-gap: 20px;
     row-gap: 20px;
-    width: 300px;
-    height: 200px;
+    width: 355px;
+    height: 300px;
 }
 .huge-box{
     background-color: #143044;
