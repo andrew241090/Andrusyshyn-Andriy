@@ -333,13 +333,13 @@
 }
 
 .top-slider{
-    width: 300px;
+    width: 310px;
     height: 180px;
     background: #F4F5FA;
     border-radius: 10px;
 }
 .bottom-slider{
-    width: 300px;
+    width: 310px;
     height: 180px;
     background: #F4F5FA;
     border-radius: 10px;
@@ -418,9 +418,12 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
-.oil-filters-group{
+.oil-filters2{
+    display: flex;
+    align-items: center;
     margin-top: 50px;
     padding-left: 70px;
+    column-gap: 30px;
 }
 .rondo-left{
     display: flex;
@@ -437,18 +440,17 @@
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
-    position: absolute;
 }
 .gotothe{
     display: flex;
-    padding-top: 11px;
+    padding-top:5px;
     justify-content: center;
     width: 90px;
     height: 30px;
     background: #005BB9;
     border-radius: 4px;
 }
-.gotothe p{
+.gotothe h4{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -468,14 +470,70 @@
     position: relative;
     right: 27px;
 }
-.about-filter{
+.description-5 p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.about-filter2{
+   padding-top: 20px;
+}
+.about-filter2 h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    color: #0A1A2C;
+}
+.air-filter2{
+    display: flex;
+    justify-content: space-between;
     width: 430px;
     height: 185px;
+    padding-left: 20px;
     background: #FFFFFF;
     border: 1px solid #E1E5F8;
     box-sizing: border-box;
     border-radius: 6px;
+}
+.descripion-5 p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.about-filter2 p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0A1A2C;
+}
+.picture-filter img{
+    padding-left: 50px;
+    margin-right: -7px;
+}
+.rondo-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.little-circle2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    left: 45px;
+}
+.picture img{
+    margin-right: -20px;
+}
+.picture2 img{
+    margin-right: -120px;
 }
