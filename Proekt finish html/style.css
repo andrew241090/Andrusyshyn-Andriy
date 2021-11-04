@@ -537,3 +537,141 @@
 .picture2 img{
     margin-right: -120px;
 }
+.buy-now{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding-left: 70px;
+    column-gap: 20px;
+}
+.some-items{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 240px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+.some-items {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.some-action{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 123px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.some-action h5{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+.some-sales{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 180px;
+    padding-top: 10px;
+    border: 2px solid #005BB9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.some-sales p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+}
+.top-grid-parts{
+    display: flex;
+}
+.grid-parts{
+    display: flex;
+    margin-top: 20px;
+}
+.complekt-first{
+    display: flex;
+    column-gap:70px;
+    width:320px;
+    padding-left: 70px;
+}
+.star{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.star span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFB800;
+}
+.star li{
+    padding-left: 5px;
+    list-style: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+}
+.transcription li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+}
+.fixed-pice{
+    margin-top: 45px;
+    display: flex;
+}
+.fixed-pice li{
+    list-style: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    color: #000000;
+}
+.fixed-pice ol{
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: -20px;
+    text-decoration-line: underline;
+    color: #005BB9;
+}
+.buy-now2{
+    display:flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.into-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 160px;
+    height: 49px;
+    background: #005BB9;
+    border-radius: 6px;
+}
+.into-cart h2{
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
