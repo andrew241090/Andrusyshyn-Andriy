@@ -418,3 +418,40 @@
     text-decoration-line: line-through;
     color: #C2C5DA;
 }
+.oil-filters-group{
+    margin-top: 50px;
+    padding-left: 70px;
+}
+.rondo-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toyota-oil{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 430px;
+    height: 185px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.gotothe{
+    display: flex;
+    padding-top: 11px;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    background: #005BB9;
+    border-radius: 4px;
+}
+.gotothe p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
