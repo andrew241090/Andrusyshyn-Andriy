@@ -5,40 +5,30 @@
 .container-fluid {
     background: #0F2438;
 }
-
-.navbar-expand-xl .navbar-collapse {
-    justify-content: flex-end;
-}
-
 .navbar-light .navbar-nav .nav-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
-
 .navbar-expand-xl .navbar-nav {
     column-gap: 50px;
 }
-
 .navbar > .container-fluid {
     padding-left: 50px;
 }
-
 .navbar-light .navbar-nav .nav-link.active {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
 }
-
 .mainmenu, .scrolling, .pictures-info, .signature, .long-button, .black-box1, .action-key, .black-box2, .black-box3, .black-box4, .minus-price, .into-cart, .buy-now2, .grey-line, .left-cursor, .clutch, .star, .some-sales, .korzina, .some-action, .some-items, .buy-now, .little-circle2, .rondo-right, .little-circle, .toyota-oil, .rondo-lef, .oil-filters2, .catalogue, .discount, .chain-bot, .input-text, .whattsap, .coll-me, .navigation, .timing, .clasification, .header-info {
     display: flex;
     align-items: center;
 }
-
 .mainmenu {
-    padding-left: 200px;
+    padding-left: 245px;
 }
 .header-info {
     justify-content: space-around;
